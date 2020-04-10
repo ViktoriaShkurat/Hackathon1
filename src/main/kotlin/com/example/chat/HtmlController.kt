@@ -18,6 +18,6 @@ class HtmlController {
     @GetMapping("/")
     fun chat(model: Model) :String{
         model["title"] = "Blog"
-        return "blog"
+        return "chat"
     }
 }
